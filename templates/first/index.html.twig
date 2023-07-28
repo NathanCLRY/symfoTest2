@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello FirstController! 👾{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="container">
+	<h1>{{controller_name}}</h1>
+	<form class="mt-4">
+		<div>
+			<label for="">Nom :
+			</label>
+			<input class="form-control" type="text">
+		</div>
+		<div>
+			<label for="">Prénom :
+			</label>
+			<input class="form-control" type="text">
+		</div>
+		<div>
+			<label for="">Email :
+			</label>
+			<input class="form-control" type="email">
+		</div>
+	</form>
+</div>
+{% endblock %}
